@@ -1,7 +1,7 @@
 from identity import Identity
 
-
 class Vehicle:
+    id = -1
     expected_hours = -1
     owner = Identity
     make = ''
